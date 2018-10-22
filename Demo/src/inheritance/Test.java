@@ -1,0 +1,9 @@
+package inheritance;
+public class Test {
+    public void method() {
+        for(int i = 0; i < 3; i++) {
+            System.out.print(i);
+        }
+       // System.out.print(i);
+    }
+}
