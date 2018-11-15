@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<registrationDTO>
+<aadharId>20112320356</aadharId>
+<acctType>S</acctType>
+<address>12 Main Road</address>
+<balance>5000</balance>
+<city>Bangalore</city>
+<emailId>deepak.kumar@gmail.com</emailId>
+<firstName>Deepak</firstName>
+<lastName>Kumar</lastName>
+<panNo>AHWBW45457</panNo>
+<pincode>599486</pincode>
+<salaried>Y</salaried>
+<state>Bangalore</state>
+<dob>1999-12-10</dob>
+</registrationDTO>

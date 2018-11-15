@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<registrationDTO>
+<aadharId>20112320005</aadharId>
+<acctType>C</acctType>
+<address>Dharavi Bombay</address>
+<balance>5000</balance>
+<city>Bombay</city>
+<emailId>deepak@gmail.com</emailId>
+<firstName>Deepak</firstName>
+<lastName>Raj</lastName>
+<panNo>AHWBW4597Z</panNo>
+<pincode>599456</pincode>
+<salaried>N</salaried>
+<state>Maharashtra</state>
+<dob>1997-10-10</dob>
+</registrationDTO>
