@@ -1,0 +1,36 @@
+package primeNumberChecker;
+
+import static org.junit.Assert.assertEquals;
+import java.util.Arrays;
+import java.util.Collection;
+import org.junit.*;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+
+@RunWith(Parameterized.class)
+public class PrimeNumberCheckerTest {
+	private Integer inputNumber;
+	private Boolean expectedResult;
+	private PrimeNumberChecker primeNumberChecker;
+
+	@Before
+	public void initialize() {
+		primeNumberChecker = new PrimeNumberChecker();
+	}
+
+	public PrimeNumberCheckerTest(Integer inputNumber, Boolean expectedResult) {
+		this.inputNumber = inputNumber;
+		this.expectedResult = expectedResult;
+	}
+
+	@Parameterized.Parameters
+	public static Collection primeNumbers() {
+		return Arrays.asList(new Object[][] { { 2, true }, { 8, false }, { 29, true }, { 22, false }, { 31, true } });
+	}
+
+	@Test
+	public void testPrimeNumberChecker() {
+		System.out.println("Parameterized Number is : " + inputNumber);
+		assertEquals(expectedResult, primeNumberChecker.validate(inputNumber));
+	}
+}
