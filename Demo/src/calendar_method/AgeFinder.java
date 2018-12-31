@@ -10,6 +10,7 @@ public class AgeFinder {
 		Calendar today = Calendar.getInstance();
 		int yeardiff = today.get(Calendar.YEAR)-dateOfBirth.get(Calendar.YEAR);
 		int mondiff = today.get(Calendar.MONTH)-dateOfBirth.get(Calendar.MONTH);
+		@SuppressWarnings("unused")
 		int daydiff = today.get(Calendar.DATE)-dateOfBirth.get(Calendar.DATE);
 		if (mondiff<0){
 			yeardiff--;

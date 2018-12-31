@@ -19,8 +19,12 @@ String result = en.encryptionModule(msg, key);
 session.setAttribute("enmsg", result);
 out.print(result);
 %>
-
+<br><hr>
 <form action="decryption.jsp">
+<table><tbody>
+<tr><td>Enter decryption key:</td>
+<td><input type="number" value="" name = "dekey" size="50"></td></tr>
+</tbody></table>
 <input type="submit" name="submit" value="Decryption">
 </form>
 </body>

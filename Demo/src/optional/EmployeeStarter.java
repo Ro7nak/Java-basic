@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import techSol.FullTimeEmployee;
+
 public class EmployeeStarter {
     public static void main(String[] args) {
         // Code to retrieve full-time employees and to store them in a list called employeesList
